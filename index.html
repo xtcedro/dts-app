@@ -35,23 +35,19 @@
       max-height: 50px;
     }
 
-    nav {
-      display: flex;
-      gap: 1rem;
-    }
-
-    nav ul {
+    #navbar ul {
       list-style: none;
       display: flex;
       gap: 1rem;
+      padding: 0;
     }
 
-    nav a {
+    #navbar a {
       color: #fff;
       text-decoration: none;
     }
 
-    nav a:hover {
+    #navbar a:hover {
       text-decoration: underline;
     }
 
@@ -152,7 +148,7 @@
     document.addEventListener('DOMContentLoaded', () => {
       const navbar = document.getElementById('navbar');
       navbar.innerHTML = `
-        <ul class="navbar">
+        <ul>
           <li><a href="index.html">🏠 Home</a></li>
           <li><a href="about.html">👨‍💻 About Us</a></li>
           <li><a href="services.html">🛠️ Services</a></li>
