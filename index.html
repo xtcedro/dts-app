@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dominguez Tech Solutions - Fast, Affordable Tech Solutions for Your Business and Life!">
+  <title>Dominguez Tech Solutions</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/load-components.js"></script>
+</head>
+<body>
+  <div id="header"></div>
+
+  <nav class="navbar"></nav>
+
+  <main>
+    <section class="hero">
+      <img src="assets/banner.jpg" alt="Dominguez Tech Solutions Banner" class="hero-banner">
+      <h1>Welcome to Dominguez Tech Solutions</h1>
+      <p>
+        At Dominguez Tech Solutions, we offer cutting-edge services designed to help local businesses in Oklahoma City thrive.
+        From custom web applications to affordable tech repair services, we've got you covered.
+      </p>
+    </section>
+
+    <section class="signup-form">
+      <h2>Sign Up</h2>
+      <form id="signupForm" action="/register" method="POST">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+</body>
+</html>
